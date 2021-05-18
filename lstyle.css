@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.forma{
+    height: 100%;
+    width:100%;
+    background-image: linear-gradient(rgba(21, 5, 253, 0.548),rgb(255, 255, 255));
+    background-image: url("music.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    opacity: 100%;
+}
+.formbox{
+width: 380px;
+height: 480px;
+position: relative;
+margin: 6% auto;
+background: rgb(250, 207, 207);
+padding: 5px;
+opacity: 70%;
+overflow: hidden;
+}
+.bb{width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px rgb(163, 161, 161);
+    border-radius: 30px;
+}
+.tb{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background:  linear-gradient(to right,#0010f1,#06a4ff);
+    
+    border-radius: 30px;
+    transition: .5s;
+}
+.si{
+    margin: 30px auto;
+    text-align: center;
+    height: 50px;
+  
+}
+.si img{
+    width: 30px;
+  
+}
+.ig{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+
+}
+.if{
+    width: 100%;
+    padding:10px 0 ;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.sbtn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#0010f1,#06a4ff);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.cb{
+    margin: 30px 10px 30px 0;
+}
+
+
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+
+}
+
+
+#LogIn{
+    left: 50px;
+}
+#SignUp{
+    left: 450px;
+}
+
+
+
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="itf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>login page</title>
+    <link rel="stylesheet" href="lstyle.css">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist">
+</head>
+    <body>
+        <div class="container">
+           <div class="row">
+               <div class="col-sm-4">
+                    <div class="forma">
+                       <div class="formbox" >
+                          <div class="bb">
+                             <div id="btn" >
+                            </div>
+                             <button type="button" class="tb" onclick="LogIn()">Log In</button>
+                              <button type="button" class="tb" onclick="SignUp()">Sign Up</button>
+                         </div>
+                         <div class="si">
+                           <a href="https://www.facebook.com/" style="padding-right:10px ;"> <img src="D:\Adobe\fb.png" alt="fb"></a>
+                           <a href="https://www.google.com/intl/en-GB/gmail/about/#" style="padding-right:10px ;"><img src="D:\Adobe\gm.png" alt="Gmail"></a>
+                           <a href="https://www.twitter.com/" style="padding-right:10px ;"><img src="D:\Adobe\tw.png" alt="twitter"></a>
+                         </div>
+                         <form id="LogIn"class="ig">
+                            <input type="text" class="if" placeholder="User Id" required>
+                            <input type="text" class="if" placeholder="Enter Password" required>
+                            <input type="checkbox" class="cb" required><span>Remember Password</span>
+                            <button type="submit" class="sbtn">Log In</button>
+                        </form>
+                        <form id="SignUp" class="ig">
+                            <input type="text" class="if" placeholder="User Id" required>
+                            <input type="email" class="if" placeholder="Email Id" required>
+                            <input type="text" class="if" placeholder="Enter Password" required>
+                            <input type="checkbox" class="cb" required><span>I agree to the terms and conditions</span>
+                            <button type="submit" class="sbtn">Sign Up</button>
+                        </form>
+                     </div>
+                  </div>
+               <script>
+                   var x = document.getElementById("LogIn");
+                   var y=document.getElementById("SignUp");
+                   var z=document.getElementById("btn");
+                   function SignUp(){
+                       x.style.left = "-400px";
+                       y.style.left = "50px";
+                       z.style.left = "110px";
+                   }
+                   function LogIn(){
+                       x.style.left = "50px";
+                       y.style.left = "450px";
+                       z.style.left = "0px";
+                   }
+               </script>
+                </div>
+              </div>                   
+                       
+        </div>
+    </body>
+
+</html>
